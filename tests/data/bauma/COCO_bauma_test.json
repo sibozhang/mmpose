@@ -1,0 +1,281 @@
+{
+    "info": {
+        "description": "This is dataset.",
+        "url": "https://superannotate.ai",
+        "version": "1.0",
+        "year": 2021,
+        "contributor": "Superannotate AI",
+        "date_created": "28/04/2021"
+    },
+    "licenses": [
+        {
+            "url": "https://superannotate.ai",
+            "id": 1,
+            "name": "Superannotate AI"
+        }
+    ],
+    "images": [
+        {
+            "id": 1,
+            "file_name": "49.png",
+            "height": 1044,
+            "width": 2160,
+            "license": 1
+        },
+        {
+            "id": 2,
+            "file_name": "38.png",
+            "height": 1044,
+            "width": 2160,
+            "license": 1
+        },
+        {
+            "id": 3,
+            "file_name": "23.png",
+            "height": 1044,
+            "width": 2160,
+            "license": 1
+        },
+        {
+            "id": 4,
+            "file_name": "48.png",
+            "height": 1044,
+            "width": 2160,
+            "license": 1
+        },
+        {
+            "id": 5,
+            "file_name": "22.png",
+            "height": 1044,
+            "width": 2160,
+            "license": 1
+        },
+        {
+            "id": 6,
+            "file_name": "39.png",
+            "height": 1044,
+            "width": 2160,
+            "license": 1
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "iscrowd": 0,
+            "bbox": [
+                942,
+                418,
+                401,
+                464
+            ],
+            "area": 186064,
+            "num_keypoints": 5,
+            "keypoints": [
+                942.63,
+                418.79,
+                2,
+                1014.83,
+                459.17,
+                2,
+                1175.01,
+                524.82,
+                2,
+                1302.74,
+                655.04,
+                2,
+                1343.07,
+                882.99,
+                2
+            ],
+            "category_id": 1
+        },
+        {
+            "id": 2,
+            "image_id": 2,
+            "iscrowd": 0,
+            "bbox": [
+                1121,
+                644,
+                150,
+                303
+            ],
+            "area": 45450,
+            "num_keypoints": 5,
+            "keypoints": [
+                1137.01,
+                947.29,
+                2,
+                1121.25,
+                868.37,
+                2,
+                1153.37,
+                644.04,
+                2,
+                1236.52,
+                705.42,
+                2,
+                1271.46,
+                888.84,
+                2
+            ],
+            "category_id": 1
+        },
+        {
+            "id": 3,
+            "image_id": 3,
+            "iscrowd": 0,
+            "bbox": [
+                843,
+                422,
+                304,
+                433
+            ],
+            "area": 131632,
+            "num_keypoints": 5,
+            "keypoints": [
+                843.26,
+                492.36,
+                2,
+                909.69,
+                462.09,
+                2,
+                1026.79,
+                422.31,
+                2,
+                1131.27,
+                627.83,
+                2,
+                1147.24,
+                855.22,
+                2
+            ],
+            "category_id": 1
+        },
+        {
+            "id": 4,
+            "image_id": 4,
+            "iscrowd": 0,
+            "bbox": [
+                938,
+                421,
+                416,
+                454
+            ],
+            "area": 188864,
+            "num_keypoints": 5,
+            "keypoints": [
+                938.25,
+                421.79,
+                2,
+                1009.58,
+                459.17,
+                2,
+                1147.33,
+                499.44,
+                2,
+                1316.91,
+                666.43,
+                2,
+                1354.76,
+                875.68,
+                2
+            ],
+            "category_id": 1
+        },
+        {
+            "id": 5,
+            "image_id": 5,
+            "iscrowd": 0,
+            "bbox": [
+                745,
+                459,
+                406,
+                394
+            ],
+            "area": 159964,
+            "num_keypoints": 5,
+            "keypoints": [
+                745.34,
+                578.97,
+                2,
+                817.67,
+                529.7,
+                2,
+                952.04,
+                459.17,
+                2,
+                1110.82,
+                613.6,
+                2,
+                1151.62,
+                853.76,
+                2
+            ],
+            "category_id": 1
+        },
+        {
+            "id": 6,
+            "image_id": 6,
+            "iscrowd": 0,
+            "bbox": [
+                1149,
+                652,
+                131,
+                289
+            ],
+            "area": 37859,
+            "num_keypoints": 5,
+            "keypoints": [
+                1177.93,
+                941.79,
+                2,
+                1149.55,
+                899.07,
+                2,
+                1154.26,
+                652.95,
+                2,
+                1237.42,
+                682.48,
+                2,
+                1280.23,
+                861.07,
+                2
+            ],
+            "category_id": 1
+        }
+    ],
+    "categories": [
+        {
+            "name": "Excavator Pose",
+            "supercategory": "Excavator",
+            "skeleton": [
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    5
+                ]
+            ],
+            "keypoints": [
+                "bucket end",
+                "bucket joint",
+                "arm joint",
+                "boom cylinder",
+                "boom base"
+            ],
+            "id": 1
+        }
+    ]
+}
